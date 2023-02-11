@@ -1,0 +1,245 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0.0625rem 0.5rem 0 rgb(0 0 0 / 4%), 0 0.0625rem 0.3125rem 0 rgb(0 0 0 / 4%);
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar-contents {
+    margin-left: 70px;
+}
+
+.navbar-contents-top {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.navbar-contents-top-left a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-contents-top-right {
+    margin-left: 20rem;
+}
+
+
+.navbar-contents-top-right a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-contents-bottom a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+#location {
+    color: #006bae;
+    text-decoration: underline;
+}
+
+#order {
+    background-color: #ffbc0d;
+    border-radius: 4px;
+    padding: 8px 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.64%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3%;
+}
+
+.col-11 {
+    width: 91.63;
+}
+
+.col-12 {
+    width: 99.96%;
+}
+
+.first-section-left img,
+.first-section-right img,
+.second-section-left img,
+.third-section-left img,
+.fourth-section-left img,
+.fifth-section-left img,
+.sixth-section-left img {
+    width: 100%;
+}
+
+.first-section-right h1,
+.first-section-left h1,
+.second-section-right h1,
+.third-section-right h1,
+.fourth-section-right h1,
+.fifth-section-right h1,
+.sixth-section-right h1 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.first-section-right #first-section-texts,
+.first-section-left #first-section-texts,
+.second-section-right #second-section-texts,
+.third-section-right #third-section-texts,
+.fourth-section-right #fourth-section-texts,
+.fifth-section-right #fifth-section-texts,
+.sixth-section-right #sixth-section-texts {
+    /* text-align: justify; */
+    /* font-size: 17px; */
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.first-section-right #first-section-small,
+.second-section-right #second-section-small,
+.third-section-right #third-section-small,
+.fourth-section-right #fourth-section-small,
+.fifth-section-right #fifth-section-small,
+.sixth-section-right #sixth-section-small {
+    font-size: 10px;
+    /* text-align: justify; */
+    margin-bottom: 50px;
+}
+
+.first-section-right .earn-btn a,
+.first-section-left .earn-btn a,
+.second-section-right .second-btn a,
+.third-section-right .third-btn a,
+.fourth-section-right .fourth-btn a,
+.fifth-section-right .fifth-btn a,
+.sixth-section-right .sixth-btn a {
+    color: black;
+    text-decoration: none;
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+
+.seventh-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.row-links h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.row-links p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.footer-icon-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-icon-left {
+    display: flex;
+    gap: 20px;
+    margin-right: 40rem;
+    padding-left: 30px;
+}
+
+.footer-first-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    margin: 50px 0px;
+}
+
+
+.footer-first-left {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    margin-right: 5rem;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-first-left a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer-first-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-first-right img {
+    width: 8%;
+}
